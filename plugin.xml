@@ -17,14 +17,14 @@
 	</engines>  
 
 	<js-module src="www/fullgauge.cripto.js" name="Crypto">
-		<clobbers target="plugins.crypto" />
+		<clobbers target="crypto" />
 	</js-module>
 
 	<!-- android -->
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="Crypto">
-				<param name="android-package" value="com.br.fullgauge.sitradmobile"/>
+				<param name="android-package" value="com.br.fullgauge.sitradmobile.Crypto"/>
 			</feature>
 		</config-file>
 	
