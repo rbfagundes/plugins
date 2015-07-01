@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="br.com.fullgauge.sitradmobile.crypto"
+  id="com.br.fullgauge.sitradmobile.crypto"
   version="1.0.6">
 
 	<name>Crypto</name>
@@ -39,7 +39,7 @@
 		</config-file>
 		-->
 
-		<source-file src="src/android/br/com/fullgauge/sitradmobile/Crypto.java" target-dir="src/br/com/fullgauge" />
+		<source-file src="src/android/com/br/fullgauge/sitradmobile/Crypto.java" target-dir="src/com/br/fullgauge" />
 		 <!-- <source-file src="src/android/com/synconset/ImagePicker/FakeR.java" target-dir="src/br/com/fullgauge" /> --> 
 		
 <!--		<source-file src="src/android/Library/src/ImageFetcher.java" target-dir="src/com/synconset"/> -->
