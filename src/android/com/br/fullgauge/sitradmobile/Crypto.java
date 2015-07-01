@@ -209,7 +209,6 @@ public class Crypto extends CordovaPlugin {
 			
 		try {
 			String filtered;
-			// removes the µ at the beginning and ££ at end
 			if (crypted.charAt(0) ==  '\uFFFD') {
 				filtered = crypted.substring(1, crypted.length() - 2);
 			} else {
