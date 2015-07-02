@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="com.br.fullgauge.sitradmobile.crypto"
+  id="com.moonware.cameraplus"
   version="1.0.6">
 
 	<name>Crypto</name>
@@ -16,15 +16,15 @@
 		<engine name="cordova" version=">=3.0.0" />
 	</engines>  
 
-	<js-module src="www/fullgauge.cripto.js" name="Crypto">
-		<clobbers target="Crypto" />
+	<js-module src="www/Crypto.js" name="Crypto">
+		<clobbers target="cordova.plugins.Crypto" />
 	</js-module>
 
 	<!-- android -->
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="Crypto">
-				<param name="android-package" value="com.br.fullgauge.sitradmobile.Crypto"/>
+				<param name="android-package" value="com.moonware.cameraplus.Crypto"/>
 			</feature>
 		</config-file>
 	
@@ -39,9 +39,9 @@
 		</config-file>
 		-->
 
-		<source-file src="src/android/Crypto.java" target-dir="src/com/br/fullgauge/sitradmobile" />
-		<source-file src="src/android/Base64.java" target-dir="src/com/br/fullgauge/sitradmobile" />
-		<source-file src="src/android/FgCrypto.java" target-dir="src/com/br/fullgauge/sitradmobile" />
+		<source-file src="src/android/Crypto.java" target-dir="src/com/moonware/cameraplus" />
+		<source-file src="src/android/Base64.java" target-dir="src/com/moonware/cameraplus" />
+		<source-file src="src/android/FgCrypto.java" target-dir="src/com/moonware/cameraplus" />
 		 <!-- <source-file src="src/android/com/synconset/ImagePicker/FakeR.java" target-dir="src/br/com/fullgauge" /> --> 
 		
 <!--		<source-file src="src/android/Library/src/ImageFetcher.java" target-dir="src/com/synconset"/> -->
