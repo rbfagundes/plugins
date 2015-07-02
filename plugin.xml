@@ -39,9 +39,9 @@
 		</config-file>
 		-->
 
-		<source-file src="src/android/com/br/fullgauge/sitradmobile/Crypto.java" target-dir="src/com/br/fullgauge/sitradmobile" />
-		<source-file src="src/android/com/br/fullgauge/sitradmobile/Base64.java" target-dir="src/com/br/fullgauge/sitradmobile" />
-		<source-file src="src/android/com/br/fullgauge/sitradmobile/FgCrypto.java" target-dir="src/com/br/fullgauge/sitradmobile" />
+		<source-file src="src/android/Crypto.java" target-dir="src/com/br/fullgauge/sitradmobile" />
+		<source-file src="src/android/Base64.java" target-dir="src/com/br/fullgauge/sitradmobile" />
+		<source-file src="src/android/FgCrypto.java" target-dir="src/com/br/fullgauge/sitradmobile" />
 		 <!-- <source-file src="src/android/com/synconset/ImagePicker/FakeR.java" target-dir="src/br/com/fullgauge" /> --> 
 		
 <!--		<source-file src="src/android/Library/src/ImageFetcher.java" target-dir="src/com/synconset"/> -->
