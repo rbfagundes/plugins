@@ -28,8 +28,6 @@
 			</feature>
 		</config-file>
 	
-	<!--	
-
 		<source-file src="src/android/Crypto.java" target-dir="src/br/com/fullgauge/sitradmobile" />
 		<source-file src="src/android/Base64.java" target-dir="src/br/com/fullgauge/sitradmobile" />
 		<source-file src="src/android/FgCrypto.java" target-dir="src/br/com/fullgauge/sitradmobile" />
